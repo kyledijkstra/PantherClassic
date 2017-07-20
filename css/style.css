@@ -1,0 +1,10 @@
+body {
+  background-color: #a6a6a6;
+}
+
+.navbar-header > h2 {
+  color: red;
+}
+.navbar-header > h2 > small{
+  color: white;
+}
