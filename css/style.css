@@ -1,10 +1,15 @@
 body {
-  background-color: #a6a6a6;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
-.navbar-header > h2 {
-  color: red;
+.accent-text {
+  color: #f44336;
 }
-.navbar-header > h2 > small{
-  color: white;
+.accent-text > small{
+  color: #fafafa;
+}
+
+table {
+  background-color: white;
 }

@@ -6,31 +6,35 @@
     </title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <!-- <a class="navbar-brand" href="#">
-            <img src="images/logo.jpg" class="img-responsive" alt="Logo">
-          </a> -->
-          <h2>2017 Panther Classic <small>July 22</small></h2>
-        </div>
+    <div class="container-fluid" style="background-color: #212121;">
+      <div class="page-header">
+        <h1 class="accent-text">2017 Panther Classic <small>July 22</small></h1>
       </div>
-    </nav>
+    </div>
+    <!-- <div role="navigation">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="info.html">Info</a></li>
+      </ul>
+    </div> -->
+
+
     <div class="container">
-      <h2>Live Standings</h2>
       <div class="row">
         <div class="col-md-6">
-          <h4>Group A</h4>
-          <table class="table">
+          <h2>Live Standings</h2>
+          <h4 class="accent-text">Group A</h4>
+          <table class="table table-bordered">
             <thead>
               <tr>
-                <th>Team</th>
-                <th>Wins</th>
-                <th>Draws</th>
-                <th>Losses</th>
-                <th>Points</th>
+                <th class="col-md-4">Team</th>
+                <th class="col-md-2">Wins</th>
+                <th class="col-md-2">Draws</th>
+                <th class="col-md-2">Losses</th>
+                <th class="col-md-2">Points</th>
               </tr>
             </thead>
             <tbody>
@@ -49,7 +53,7 @@
                 <td>0</td>
               </tr>
               <tr>
-                <td>Westview</td>
+                <td>Westview &nbsp; &nbsp;</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
@@ -57,17 +61,15 @@
               </tr>
             </tbody>
           </table>
-        </div>
-        <div class="col-md-6">
-          <h4>Group B</h4>
-          <table class="table">
+          <h4 class="accent-text">Group B</h4>
+          <table class="table  table-bordered">
             <thead>
               <tr>
-                <th>Team</th>
-                <th>Wins</th>
-                <th>Draws</th>
-                <th>Losses</th>
-                <th>Points</th>
+                <th class="col-md-4">Team</th>
+                <th class="col-md-2">Wins</th>
+                <th class="col-md-2">Draws</th>
+                <th class="col-md-2">Losses</th>
+                <th class="col-md-2">Points</th>
               </tr>
             </thead>
             <tbody>
@@ -95,101 +97,128 @@
             </tbody>
           </table>
         </div>
+        <div class="col-md-6">
+          <h2>Schedule and Scores</h2>
+          <table class="table"  style="width:auto;">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Home</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th>Away</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>8:00am</td>
+                <td>Bremen</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>Wawasee</td>
+              </tr>
+              <tr>
+                <td>9:15am</td>
+                <td>Glenn</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>ECA</td>
+              </tr>
+              <tr>
+                <td>10:30am</td>
+                <td>Wawasee</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>Westview</td>
+              </tr>
+              <tr>
+                <td>11:45am</td>
+                <td>ECA</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>NorthWood</td>
+              </tr>
+              <tr>
+                <td>1:00pm</td>
+                <td>Glenn</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>NorthWood</td>
+              </tr>
+              <tr>
+                <td>2:15pm</td>
+                <td>Bremen</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>Westview</td>
+              </tr>
+              <tr>
+                <td>3:30pm</td>
+                <td>#3A</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>#3B</td>
+              </tr>
+              <tr>
+                <td>4:45pm</td>
+                <td>#2A</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>#2B</td>
+              </tr>
+              <tr>
+                <td>6:00pm</td>
+                <td>#1A</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>#1B</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
-
-    <div class="container-fluid">
-      <h2>Schedule and Live Scores</h2>
       <div class="row">
-        <table class="table"  style="width:auto;">
-          <thead>
-            <tr>
-              <th>Time</th>
-              <th>Home</th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th>Away</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>8:00am</td>
-              <td>Bremen</td>
-              <td>0</td>
-              <td>-</td>
-              <td>0</td>
-              <td>Wawasee</td>
-            </tr>
-            <tr>
-              <td>9:15am</td>
-              <td>Glenn</td>
-              <td>0</td>
-              <td>-</td>
-              <td>0</td>
-              <td>ECA</td>
-            </tr>
-            <tr>
-              <td>10:30am</td>
-              <td>Wawasee</td>
-              <td>0</td>
-              <td>-</td>
-              <td>0</td>
-              <td>Westview</td>
-            </tr>
-            <tr>
-              <td>11:45am</td>
-              <td>ECA</td>
-              <td>0</td>
-              <td>-</td>
-              <td>0</td>
-              <td>NorthWood</td>
-            </tr>
-            <tr>
-              <td>1:00pm</td>
-              <td>NorthWood</td>
-              <td>0</td>
-              <td>-</td>
-              <td>0</td>
-              <td>Glenn</td>
-            </tr>
-            <tr>
-              <td>2:15pm</td>
-              <td>Westview</td>
-              <td>0</td>
-              <td>-</td>
-              <td>0</td>
-              <td>Bremen</td>
-            </tr>
-            <tr>
-              <td>3:30pm</td>
-              <td>#3A</td>
-              <td>0</td>
-              <td>-</td>
-              <td>0</td>
-              <td>#3B</td>
-            </tr>
-            <tr>
-              <td>4:45pm</td>
-              <td>#2A</td>
-              <td>0</td>
-              <td>-</td>
-              <td>0</td>
-              <td>#2B</td>
-            </tr>
-            <tr>
-              <td>6:00pm</td>
-              <td>#1A</td>
-              <td>0</td>
-              <td>-</td>
-              <td>0</td>
-              <td>#1B</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="col-md-6">
+          <h2>Tournament Information</h2>
+          <div class="list-group">
+            <div class="list-group-item">
+              <h4 class="list-group-item-heading accent-text">Location</h4>
+              <p class="list-group-item-text">Nappanee Elementary School</p>
+              <p class="list-group-item-text">755 E Van Buren St, Nappanee, IN 46550</p>
+            </div>
+            <div class="list-group-item">
+              <h4 class="list-group-item-heading accent-text">Rules</h4>
+              <p class="list-group-item-text">30 minute halves with running clock</p>
+              <p class="list-group-item-text">Group stage games can end in a tie</p>
+              <p class="list-group-item-text">"Playoff" games ending in a tie go straight to PK shootout</p>
+              <p class="list-group-item-text">Group stage tiebreaker(s):</p>
+              <ol class="list-group-item-text">
+                <li>Head to head</li>
+                <li>Goal difference</li>
+                <li>Total goals scored</li>
+                <li>Coin toss</li>
+              </ol>
+            </div>
+            <div class="list-group">
+              <div class="list-group-item">
+                <h4 class="list-group-item-heading accent-text">Notes</h4>
+                <p class="list-group-item-text">Referees may shorten games in case of adverse weather conditions</p>
+                <p class="list-group-item-text">Any notices before/during gameday will be posted on this website</p>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
-
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
