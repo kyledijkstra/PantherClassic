@@ -11,12 +11,15 @@
     "url": "git+https://github.com/kyledijkstra/PantherClassic.git"
   },
   "dependencies": {
-    "express": "*"
+    "bootstrap": "^3.3.7"
   },
   "author": "Kyle Dijkstra",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kyledijkstra/PantherClassic/issues"
   },
-  "homepage": "https://github.com/kyledijkstra/PantherClassic#readme"
+  "homepage": "https://github.com/kyledijkstra/PantherClassic#readme",
+  "devDependencies": {
+    "webpack": "^3.3.0"
+  }
 }
