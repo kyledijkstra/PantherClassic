@@ -1,0 +1,22 @@
+{
+  "name": "pantherclassic",
+  "version": "1.0.0",
+  "description": "static website for Panther Classic Tournament 2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyledijkstra/PantherClassic.git"
+  },
+  "dependencies": {
+    "express": "*"
+  },
+  "author": "Kyle Dijkstra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyledijkstra/PantherClassic/issues"
+  },
+  "homepage": "https://github.com/kyledijkstra/PantherClassic#readme"
+}
